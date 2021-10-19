@@ -2,9 +2,9 @@
  * @copyright (C) 2017 Melexis N.V.
  *
  */
-#include <MLX90640_I2C_Driver.h>
-#include <MLX90640_API.h>
-#include <MLX90640_LUT.h>
+#include "MLX90640_I2C_Driver.h"
+#include "MLX90640_API.h"
+#include "MLX90640_LUT.h"
 #include <math.h>
  
 void UpdateLUT(float ta, float tr, float ksta, float emissivity, float tMin, float tStep, uint16_t lutLines, float *lut1, float *lut2, float *lut);
